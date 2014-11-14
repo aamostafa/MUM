@@ -1,0 +1,34 @@
+<ion-side-menus>
+    <ion-pane ion-side-menu-content>
+        <ion-nav-bar class="bar-balanced">
+            <ion-nav-back-button class="button button-clear button-icon ion-ios7-arrow-back">
+                
+            </ion-nav-back-button>
+            <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+        </ion-nav-bar>
+
+        <ion-nav-view name="content" animation="slide-right-left"></ion-nav-view>
+
+<!--         <div class="bar bar-footer bar-balanced">
+          <div class="title">Maharishi Unversity of Management</div>
+        </div>
+ -->        
+    </ion-pane>
+    <ion-side-menu side="left">
+        <header class="bar bar-header bar-balanced">
+            <h1 class="title">MUM</h1>
+        </header>
+        <ion-content class="has-header">
+            <ion-list>
+                <ion-item nav-clear menu-close ui-sref="home.main">Home</ion-item>
+                <ion-item nav-clear menu-close ui-sref="home.selectPrefrences">Enter preferences</ion-item>
+                <ion-item nav-clear menu-close ui-sref="home.priority">View block priority usage</ion-item>
+                <ion-item nav-clear menu-close ui-sref="home.waivers">View waivers</ion-item>
+                <ion-item nav-clear menu-close ui-sref="home.unsatisfiedPrerequisites">View courses with unsatisfied prerequisites</ion-item>
+                <ion-item nav-clear menu-close ui-sref="home.enrolled">View courses you have enrolled in</ion-item>
+                <ion-item nav-clear menu-close ui-sref="login">Logout</ion-item>
+
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+</ion-side-menus>
